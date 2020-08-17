@@ -1,5 +1,7 @@
 <template>
     <div class="row justify-content-center">
+        <h5 >Här kan du registrera och administrera
+            passen du kör med din häst för att på ett enkelt sätt kunna följa din träning</h5><br><br>
         <div class="col-md-6">
             <h3 class="text-center">Skapa träningslogg</h3>
             <form @submit.prevent="handleSubmitForm">

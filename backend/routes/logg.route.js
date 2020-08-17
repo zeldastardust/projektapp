@@ -25,6 +25,7 @@ loggRoute.route('/').get((req, res) => {
   })
 });
 
+
 loggRoute.route('/edit-logg/:id').get((req, res) => {
    LoggModel.findById(req.params.id, (error, data) => {
     if (error) {
